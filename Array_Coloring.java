@@ -10,7 +10,7 @@ public class Array_Coloring {
             while(t-- > 0) {
                 int size = input.nextInt();
                 int arr1[] = new int[size];
-                int arr2[] = new int[size];
+             
                 for(int i = 0; i < size; i++) {
                     int x = input.nextInt();
                     arr1[i] = x;
@@ -19,8 +19,6 @@ public class Array_Coloring {
                     System.out.println("YES");
                 }
                 else {
-                    arr2=arr1.clone();
-                    Arrays.sort(arr2);
                     boolean B=true;
                     for(int i=0;i<size-1;i++){
                      if((arr1[i]%2==0 && arr1[i+1]%2==0) || (arr1[i]%2==1 && arr1[i+1]%2==1)){
@@ -34,3 +32,4 @@ public class Array_Coloring {
     }
     }}
 }}
+

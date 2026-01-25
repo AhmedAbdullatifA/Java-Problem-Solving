@@ -1,3 +1,4 @@
+// https://codeforces.com/contest/112/problem/A
 import java.util.*;
 
 public class Petya_And_Strings {
@@ -17,3 +18,4 @@ public class Petya_And_Strings {
         }
     }
 }
+

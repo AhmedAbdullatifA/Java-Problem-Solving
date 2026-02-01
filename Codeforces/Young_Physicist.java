@@ -25,4 +25,5 @@ public class Young_Physicist {
                 System.out.println("NO");
         }
     }
+
 }
